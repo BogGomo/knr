@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+    	</head>
+	<body>
+    <!-- Codepen code -->
+	  <div class="topnav" id="myTopnav">
+      <a href="#" id="logo"></a>
+      <div class="but">
+        <a href="home.html" class="active" data-hover="acasa">acasa</a>
+        <a href="products.html">produse</a>
+        <a href="about.html">despre noi</a>
+        <a href="contact.html">contact</a>
+        <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+    <div class="container> 
+      {{ content }}
+    </div>    
+    <!-- JavaScript connection-->	
+    <script  src="js/index.js"></script>
+	</body>
+</html>
